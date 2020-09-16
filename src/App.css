@@ -1,0 +1,30 @@
+:root {
+  --color-blue: #0d3de5;
+  --color-black: #020202;
+  --color-gry: #c1c1c1;
+  --color-white: #ffff;
+}
+
+body
+{
+  font-family: 'Roboto', sans-serif !important;
+  overflow-x: hidden;
+  margin-bottom: 0 auto;
+  /* background: #f2f2f2; */
+  font-family: 'Open Sans', sans-serif;
+}
+
+p, h1 ,h2 ,h3, h4, h5, h6 {
+  margin: 0 !important;
+}
+
+.all-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+a{
+  text-decoration: none !important;
+}

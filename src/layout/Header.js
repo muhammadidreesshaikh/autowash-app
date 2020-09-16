@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import '../assets/css/header.css'
+import '../assets/css/header.css';
 // import logo from '../assets/img/logo_465x320.png'
 
 function Header() {
@@ -13,7 +13,7 @@ function Header() {
                         <div className="col-sm-4 col-md-4 col-lg-4">
                             <div className='logo'>
                                 {/* <img src={logo} /> */}
-                                <a href="#">Logo</a>
+                                <a href="#">Dirt2Clean</a>
                             </div>
                         </div>
 

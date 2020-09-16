@@ -16,7 +16,11 @@ npm start
 # bootstrap link
 npm install --save bootstrap@latest
 
+- index.js
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+# fontawsome
+https://fontawesome.com/how-to-use/on-the-web/using-with/react
 
 # app structure
 src /assets /css /img /components Planets Spaceships Vehicles People Films Species /layouts Header Footer Sidebar

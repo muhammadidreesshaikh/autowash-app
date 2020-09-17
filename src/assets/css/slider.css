@@ -1,4 +1,69 @@
 .slider{
-    background-color: aliceblue;
-    padding: 25px 0;
+    
 }
+
+.slider .heading h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: var(--color-black);
+    padding-top: 20%;
+}
+
+.slider .heading p{
+    color: var(--color-gry);
+    font-size: 13px;
+}
+
+.slider .heading h6{
+    color: var(--color-gry);
+    font-weight: 600;
+    font-size: 11px;
+}
+
+.slider .heading ul{
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+
+.slider .heading li a{
+    color: var(--color-black);
+    font-weight: 800;
+    font-size: 15px;
+    padding-right: 10px;
+    transition: 0.5s;
+}
+
+.slider .heading a:hover{
+    color: var(--color-blue);
+    transition: 0.5s;
+    opacity: 0.5s;
+}
+
+.slider .image{
+    position: relative;
+}
+
+.slider .image img{
+    width: 100%;
+    height: 65vh;
+    object-fit: cover;
+    object-position: left;
+    border-radius: 0 0px 0px 35px;
+}
+
+.slider .image .wrapper{
+    position: absolute;
+    top: 25px;
+    left: 85px;
+}
+
+.slider .image .wrapper h6{
+    font-weight: 800;
+    font-size: 14px;
+}
+
+.slider .image .wrapper p{
+    font-size: 18px;
+}
+

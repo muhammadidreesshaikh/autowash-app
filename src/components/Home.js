@@ -1,6 +1,8 @@
 import React from 'react';
 import Slider from '../shared/Slider';
+import ServicesCard from '../shared/ServicesCard';
 import '../assets/css/home.css';
+
 import about from '../assets/img/about.jpg'
 import check from '../assets/img/check.webp'
 // import { Link } from 'react-router-dom';
@@ -108,7 +110,34 @@ class Home extends React.Component {
                                             <img src={check} />
                                     </div>
                                 </div>
-                                
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="deal">
+                        <div className="container">
+                            <div className="row">
+                                <div className="col-12 col-md-12 col-lg-12">
+                                    <h1>To deals of the week</h1>
+                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. </p>
+                                </div>
+                            </div>
+
+                            <div className="service-cards">
+                                <div className="row">
+                                    <div className="col-md-4">
+                                        <ServicesCard />
+                                    </div>
+
+                                    <div className="col-md-4">
+                                        <ServicesCard />
+                                    </div>
+
+                                    <div className="col-md-4">
+                                        <ServicesCard />
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

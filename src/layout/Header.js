@@ -17,7 +17,7 @@ function Header() {
                             </div>
                         </div>
 
-                        <div className="col-sm-8 col-md-8 col-lg-8">
+                        <div className="col-sm- col-md-8 col-lg-8">
                             <div className="nav">
                                  <ul>
                                     <li><Link to="/home">Home</Link></li>

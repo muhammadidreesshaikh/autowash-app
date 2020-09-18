@@ -9,6 +9,8 @@
     background-repeat: no-repeat; */
     background-color: var(--color-white);
     padding: 20px 0 10px 0;
+    border-top: 1px solid var(--color-gry);
+    box-shadow: 0px 0px 1px var(--color-gry);
 }
 
 /* .footer .first img{
@@ -74,7 +76,7 @@
 
 .footer .seprator{
     width: 100%;
-    background-color: #ececec;
+    background-color: var(--color-gry);
     height: 1px;
     margin-top: 1%;
 }

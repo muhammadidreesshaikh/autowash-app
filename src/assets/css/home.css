@@ -185,3 +185,73 @@
     object-position: center;
     border-radius: 35px;
 }
+
+.question{
+    padding: 10% 0 15% 0;
+    position: relative;
+}
+
+.question .main{
+    background-color: blue;
+    padding: 5% 0;
+    border-radius: 10px;
+}
+
+.question .main .heading h6{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.question .main .heading .button a.active{
+    border: 1px solid var(--color-white);
+    border-radius: 5px;
+    padding: 7px 12px;
+    font-size: 13px;
+    background-color: var(--color-white);
+    color: var(--color-black);
+    transition: 0.5s;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.question .main .heading .button a.active:hover{
+    background-color: var(--color-black);
+    border: 1px solid var(--color-black);
+    opacity: 0.5s;
+    transition: 0.5s;
+    color: var(--color-white);
+}
+
+.question .main .heading .button a{
+    border: 1px solid var(--color-white);
+    border-radius: 5px;
+    padding: 7px 12px;
+    font-size: 13px;
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+.question .main .heading .button a:hover{
+    background-color: var(--color-black);
+    border: 1px solid var(--color-black);
+    opacity: 0.5s;
+    transition: 0.5s;
+    color: var(--color-white);
+}
+
+.question .main .image{
+    position: absolute;
+    width: 100%;
+    top: -100px;
+}
+
+.question .image img{
+    width: 80%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}

@@ -6,6 +6,7 @@ import '../assets/css/home.css';
 import about from '../assets/img/about.jpg'
 import check from '../assets/img/check.webp'
 import serve from '../assets/img/serve.webp'
+import ques from '../assets/img/ques1.jpg'
 // import { Link } from 'react-router-dom';
 
 class Home extends React.Component {
@@ -168,6 +169,37 @@ class Home extends React.Component {
                             </div>
                         </div>
                     </div>
+
+                    <div className="question">
+                        <div className="container">
+                            <div className="row">
+
+                                <div className="col-md-12 col-lg-12">
+                                    <div className="row main">
+                                        <div className="col-12 col-md-8 col-lg-8">
+                                            <div className="heading">
+                                                <div className="container">
+                                                    <h6>Have anu question about us?</h6>
+
+                                                    <div className="button pt-5">
+                                                        <a className="active" href="#">021 2223 4541 23</a> <a href="#">Contact Us</a> 
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div className="col-12 col-md-4 col-lg-4">
+                                            <div className="image">
+                                                    <img src={ques} />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
 
 
                 </section>

@@ -33,7 +33,7 @@ class Home extends React.Component {
             <div>
                 <Slider />
                 <section>
-                    <div className="about">
+                    <div className="abouts">
                         <div className="container">
                             <div className="row">
 
@@ -179,10 +179,11 @@ class Home extends React.Component {
                                         <div className="col-12 col-md-8 col-lg-8">
                                             <div className="heading">
                                                 <div className="container">
-                                                    <h6>Have anu question about us?</h6>
+                                                    <h6>Have any question about us?</h6>
 
                                                     <div className="button pt-5">
-                                                        <a className="active" href="#">021 2223 4541 23</a> <a href="#">Contact Us</a> 
+                                                        <a className="active" href="#">021 2223 4541 23</a>
+                                                        <a href="#">Contact Us</a> 
                                                     </div>
                                                 </div>
                                             </div>
@@ -190,7 +191,8 @@ class Home extends React.Component {
 
                                         <div className="col-12 col-md-4 col-lg-4">
                                             <div className="image">
-                                                    <img src={ques} />
+                                                <img src={ques} />
+                                                <div className="display-circle"></div>
                                             </div>
                                         </div>
                                     </div>
@@ -199,9 +201,6 @@ class Home extends React.Component {
                             </div>
                         </div>
                     </div>
-
-
-
                 </section>
 
                 {/* <Link to="/contact">View All Deals</Link> */}

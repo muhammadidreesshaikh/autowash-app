@@ -1,12 +1,12 @@
-.about{
+.abouts{
     padding: 5% 0;
 }
 
-.about .image{
+.abouts .image{
     position: relative;
 }
 
-.about .image img{
+.abouts .image img{
     width: 100%;
     height: 65vh;
     object-fit: cover;
@@ -14,34 +14,34 @@
     border-radius: 0 35px 35px 0px;
 }
 
-.about .heading{
+.abouts .heading{
     padding: 10% 0px 0 7%;
 }
 
-.about .heading h6{
+.abouts .heading h6{
     font-size: 12px;
     font-weight: 700;
     color: var(--color-blue);
 }
 
-.about .heading h1{
+.abouts .heading h1{
     font-size: 23px;
     font-weight: 800;
 }
 
-.about .heading p{
+.abouts .heading p{
     color: var(--color-gry);
     font-size: 13px;
 }
 
-.about .heading .box{
+.abouts .heading .box{
     padding-top: 5%;
     position: absolute;
     width: 100%;
     left: -15%;
 }
 
-.about .box .card-body a{
+.abouts .box .card-body a{
     border: 1px solid var(--color-blue);
     border-radius: 30px;
     padding: 10px;
@@ -51,12 +51,12 @@
     font-weight: bold;
 }
 
-.about .box .card .card-body h4{
+.abouts .box .card .card-body h4{
     font-size: 13px;
     font-weight: 800;
 }
 
-.about .box .card .card-body p{
+.abouts .box .card .card-body p{
     font-size: 12px;
     color: var(--color-gry);
     padding-top: 8px;
@@ -126,7 +126,7 @@
 .deal p{
     text-align: center;
     font-size: 13px;
-    color: gray;
+    color: var(--color-gry);
     padding-top: 10px;
     text-align: unset;
 }
@@ -192,15 +192,16 @@
 }
 
 .question .main{
-    background-color: blue;
+    background-color: var(--color-blue);
     padding: 5% 0;
     border-radius: 10px;
+    position: relative;
 }
 
 .question .main .heading h6{
     font-size: 30px;
     font-weight: bold;
-    color: white;
+    color: var(--color-white);
 }
 
 .question .main .heading .button a.active{
@@ -209,15 +210,15 @@
     padding: 7px 12px;
     font-size: 13px;
     background-color: var(--color-white);
-    color: var(--color-black);
+    color: var(--color-blue);
     transition: 0.5s;
     font-weight: bold;
     margin-right: 10px;
 }
 
 .question .main .heading .button a.active:hover{
-    background-color: var(--color-black);
-    border: 1px solid var(--color-black);
+    background-color: var(--color-blue);
+    border: 1px solid var(--color-white);
     opacity: 0.5s;
     transition: 0.5s;
     color: var(--color-white);
@@ -235,23 +236,38 @@
 }
 
 .question .main .heading .button a:hover{
-    background-color: var(--color-black);
-    border: 1px solid var(--color-black);
+    background-color: var(--color-white);
+    border: 1px solid var(--color-white);
     opacity: 0.5s;
     transition: 0.5s;
-    color: var(--color-white);
+    color: var(--color-blue);
 }
 
 .question .main .image{
     position: absolute;
     width: 100%;
-    top: -100px;
+    height: 300px;
+    bottom: -90%;
+    right: 35%;
 }
 
 .question .image img{
-    width: 80%;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
     height: 300px;
     object-fit: cover;
     object-position: center;
     border-radius: 10px;
+}
+
+.question .image .display-circle {
+    width: 100px;
+    height: 100px;
+    background: #e68647;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -10%;
+    left: -40px;
+    z-index: 0;
 }

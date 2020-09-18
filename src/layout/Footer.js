@@ -50,7 +50,7 @@ function Footer() {
                         <div className="seprator"></div>
 
                         <div className="col-md-12">
-                            <div className="last pt-4">
+                            <div className="last py-2">
                                 <p>© Copyright 2020, Dirt2Clean. All Rights Reserved.</p>
                             </div>
                         </div>

@@ -5,6 +5,7 @@ import '../assets/css/home.css';
 
 import about from '../assets/img/about.jpg'
 import check from '../assets/img/check.webp'
+import serve from '../assets/img/serve.webp'
 // import { Link } from 'react-router-dom';
 
 class Home extends React.Component {
@@ -141,6 +142,33 @@ class Home extends React.Component {
                             </div>
                         </div>
                     </div>
+
+                    <div className="serve">
+                        <div className="container">
+                            <div className="row">
+
+                                <div className="col-12 col-md-6 col-lg-6">
+                                    <div className="image">
+                                            <img src={serve} />
+                                    </div>
+                                </div>
+
+                                <div className="col-12 col-md-6 col-lg-6">
+                                    <div className="heading">
+                                        <h6>Best Service In The World</h6>
+                                        <h1 className="pt-2">We serve you with best service in the world</h1>
+                                        <p className="pt-3">simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever Lorem Ipsum has been the standard dummy text ever since the since specimen book printing and typesetting industry.</p>
+
+                                        <div className="button pt-4">
+                                            <a href="#">Learn More</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
 
                 </section>
 

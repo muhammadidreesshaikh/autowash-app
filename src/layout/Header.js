@@ -1,13 +1,25 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
 import '../assets/css/header.css';
 // import logo from '../assets/img/logo_465x320.png'
 
 function Header() {
+
+    const [menuToggle, setMenuToggle] = useState(false);
+
+    console.log(menuToggle);
+
     return(
         <div>
             <div className="header">
-                <div className="container">
+
+                <div className={"mobile-menu-toggle " + (menuToggle ? 'change' : '')} onClick={() => setMenuToggle(!menuToggle)}>
+                    <div className="bar1"></div>
+                    <div className="bar2"></div>
+                    <div className="bar3"></div>
+                </div>
+
+                <div className="desktop-menu container">
                     <div className="row">
 
                         <div className="col-sm-4 col-md-4 col-lg-4">
@@ -31,6 +43,16 @@ function Header() {
                        
                     </div>
                 </div>
+
+                <div className={"mobile-menu sidenav " + (menuToggle ? 'open' : 'close')}>
+                    <Link to="/home">Home</Link>
+                    <Link to="/services">Services</Link>
+                    <Link to="/about">About</Link>
+                    <Link to="/contact">Contact</Link>
+                    <Link to="/login">Login</Link>
+                </div>
+
+                
             </div>
         </div>
     );

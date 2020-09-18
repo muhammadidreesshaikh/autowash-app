@@ -22,11 +22,37 @@
     bottom: 20px;
 }
 
-.custom-card .content p{
-    font-size: 13px;
+.custom-card .content h4{
+    color: white;
+    font-size: 25px;
     font-weight: bold;
 }
 
-.custom-card .content h6{
-    
+.custom-card .content a{
+    background-color: blue;
+    font-size: 15px;
+    padding: 5px 15px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.custom-card .content a:hover{
+    background-color: var(--color-white);
+    opacity: 0.5s;
+    transition: 0.5s;
+    color: var(--color-black);
+}
+
+.custom-card .content p{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.custom-card .content h5{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 5px;
 }

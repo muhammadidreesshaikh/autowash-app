@@ -117,10 +117,10 @@ class Home extends React.Component {
 
                     <div className="deal">
                         <div className="container">
-                            <div className="row">
-                                <div className="col-12 col-md-12 col-lg-12">
+                            <div className="row justify-content-center">
+                                <div className="col-12 col-md-6 col-lg-6">
                                     <h1>To deals of the week</h1>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. </p>
+                                    <p>There are many variations of passages of but the majority have suffered alteration words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum. </p>
                                 </div>
                             </div>
 

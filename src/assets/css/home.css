@@ -1,5 +1,5 @@
 .about{
-    padding: 7% 0;
+    padding: 5% 0;
 }
 
 .about .image{
@@ -63,7 +63,7 @@
 }
 
 .check{
-    padding: 7% 0;
+    padding: 5% 0;
 }
 
 .check .heading{
@@ -118,11 +118,17 @@
 }
 
 .deal h1{
-    
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
 }
 
 .deal p{
-    
+    text-align: center;
+    font-size: 13px;
+    color: gray;
+    padding-top: 10px;
+    text-align: unset;
 }
 
 .deal .service-cards{

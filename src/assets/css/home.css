@@ -124,11 +124,9 @@
 }
 
 .deal p{
-    text-align: center;
     font-size: 13px;
     color: var(--color-gry);
     padding-top: 10px;
-    text-align: unset;
 }
 
 .deal .service-cards{
@@ -270,4 +268,41 @@
     bottom: -10%;
     left: -40px;
     z-index: 0;
+}
+
+
+
+/* menu desktop and mobile switching on responsive  */
+
+@media only screen and (max-width: 768px) {
+    .abouts .heading .box{
+        left: 0%;
+        position: relative;
+    }
+
+    .abouts .heading{
+        padding: 5% 0px 0 0%;
+    }
+
+    .deal h1{
+        font-size: 30px;
+    }
+
+    .deal p{
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .card{
+        margin-top: 15px;
+    }
+
+    .check .heading{
+        padding-top: 0%;
+    }
+
+    .custom-card{
+        margin-top: 5%;
+    }
 }

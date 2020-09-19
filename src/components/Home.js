@@ -37,13 +37,13 @@ class Home extends React.Component {
                         <div className="container">
                             <div className="row">
 
-                                <div className="col-12 col-md-6 col-lg-6">
-                                    <div className="image">
+                                <div className="col-12 col-md-12 col-lg-6">
+                                    <div className="image d-none d-lg-block">
                                             <img src={about} />
                                     </div>
                                 </div>
 
-                                <div className="col-12 col-md-6 col-lg-6">
+                                <div className="col-12 col-md-12 col-lg-6">
                                     <div className="heading">
                                         <h6>A B O U T</h6>
                                         <h1 className="pt-2">About the Dirt2Clean</h1>
@@ -101,14 +101,14 @@ class Home extends React.Component {
                                         <h1 className="pt-2">Don't worries, we check all of unit</h1>
                                         <p className="pt-3">simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever Lorem Ipsum has been the standard dummy text ever since the since specimen book printing and typesetting industry.</p>
 
-                                        <div className="button pt-4">
+                                        <div className="button pt-4 text-center">
                                             <a href="#">Discover More</a>
                                         </div>
                                     </div>
                                 </div>
 
                                 <div className="col-12 col-md-6 col-lg-6">
-                                    <div className="image">
+                                    <div className="image d-none d-md-block d-lg-block">
                                             <img src={check} />
                                     </div>
                                 </div>
@@ -122,7 +122,7 @@ class Home extends React.Component {
                             <div className="row justify-content-center">
                                 <div className="col-12 col-md-6 col-lg-6">
                                     <h1>To deals of the week</h1>
-                                    <p>There are many variations of passages of but the majority have suffered alteration words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum. </p>
+                                    <p className="text-center">There are many variations of passages of but the majority have suffered alteration words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum. </p>
                                 </div>
                             </div>
 
@@ -149,7 +149,7 @@ class Home extends React.Component {
                             <div className="row">
 
                                 <div className="col-12 col-md-6 col-lg-6">
-                                    <div className="image">
+                                    <div className="image d-none d-md-block d-lg-block">
                                             <img src={serve} />
                                     </div>
                                 </div>
@@ -172,32 +172,26 @@ class Home extends React.Component {
 
                     <div className="question">
                         <div className="container">
-                            <div className="row">
+                            <div className="row main">
+                                <div className="col-12 col-md-8 col-lg-8">
+                                    <div className="heading">
+                                        <div className="container">
+                                            <h6>Have any question about us?</h6>
 
-                                <div className="col-md-12 col-lg-12">
-                                    <div className="row main">
-                                        <div className="col-12 col-md-8 col-lg-8">
-                                            <div className="heading">
-                                                <div className="container">
-                                                    <h6>Have any question about us?</h6>
-
-                                                    <div className="button pt-5">
-                                                        <a className="active" href="#">021 2223 4541 23</a>
-                                                        <a href="#">Contact Us</a> 
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div className="col-12 col-md-4 col-lg-4">
-                                            <div className="image">
-                                                <img src={ques} />
-                                                <div className="display-circle"></div>
+                                            <div className="button pt-5">
+                                                <a className="active" href="#">021 2223 4541 23</a>
+                                                <a href="#">Contact Us</a> 
                                             </div>
                                         </div>
                                     </div>
                                 </div>
 
+                                <div className="col-12 col-md-12 col-lg-4">
+                                    <div className="image d-none d-lg-block">
+                                        <img src={ques} />
+                                        <div className="display-circle"></div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

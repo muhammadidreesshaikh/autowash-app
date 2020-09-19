@@ -67,3 +67,27 @@
     font-size: 18px;
 }
 
+/* menu desktop and mobile switching on responsive  */
+
+@media only screen and (max-width: 768px) {
+    .slider .heading h1{
+        padding-top: 30px;
+        font-size: 40px;
+    }
+
+    .slider .image img{
+        height: 56vh;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .slider .heading h1{
+        font-size: 35px;
+        padding-top: 10%;
+    }
+
+    .slider .image img{
+        height: 37vh;
+    }
+}
+

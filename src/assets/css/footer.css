@@ -68,7 +68,7 @@
 }
 
 .footer .first li a:hover{
-    color: var(--color-black);
+    color: var(--color-blue);
     opacity: 0.5s;
     transition: 0.5s;
 }
@@ -84,4 +84,18 @@
    text-align: center;
     color: var(--color-gry);
     font-size: 12px;
+}
+
+/* menu desktop and mobile switching on responsive  */
+
+@media only screen and (max-width: 600px) {
+
+    .footer .press{
+        margin-top: 7%;
+        text-align: center;
+    }
+
+    .footer .first{
+        margin-top: 5%;
+    }
 }

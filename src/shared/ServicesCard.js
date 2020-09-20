@@ -1,5 +1,5 @@
 import React from 'react';
-import '../assets/css/servicescard.css';
+import '../assets/css/services-card.css';
 import cards from '../assets/img/cards1.jpg'
 
 const cardStyle = {

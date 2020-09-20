@@ -1,6 +1,7 @@
 import React from 'react';
 import Slider from '../shared/Slider';
 import ServicesCard from '../shared/ServicesCard';
+import PriceCard from '../shared/PriceCard';
 import '../assets/css/home.css';
 
 import about from '../assets/img/about.jpg'
@@ -137,6 +138,44 @@ class Home extends React.Component {
 
                                 <div className="col-md-4">
                                     <ServicesCard />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="price">
+                        <div className="container">
+                            <div className="row justify-content-center">
+                                <div className="col-12 col-md-8 col-lg-8">
+                                    <h6 className="text-center">WASHING PRICE</h6>
+                                    <h1 className="text-center">Choose Your Plan</h1>
+                                    <p className="text-center">There are many variations of passages of but the majority have suffered alteration words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum. </p>
+                                </div>
+                            </div>
+
+                            <div className="row price-cards">
+                                <div className="col-lg-3 col-md-6 col-12">
+                                    <div className="price-card">
+                                        <PriceCard />
+                                    </div>
+                                </div>
+
+                                <div className="col-lg-3 col-md-6 col-12">
+                                    <div className="price-card">
+                                        <PriceCard />
+                                    </div>
+                                </div>
+
+                                <div className="col-lg-3 col-md-6 col-12">
+                                    <div className="price-card">
+                                        <PriceCard />
+                                    </div>
+                                </div>
+
+                                <div className="col-lg-3 col-md-6 col-12">
+                                    <div className="price-card">
+                                        <PriceCard />
+                                    </div>
                                 </div>
                             </div>
                         </div>

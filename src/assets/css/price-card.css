@@ -1,0 +1,38 @@
+.custom-price {
+    
+}
+
+.custom-price h5{
+    font-weight: bold;
+    color: blue;
+    font-size: 17px;
+}
+
+.custom-price h2{
+    font-weight: bold;
+    font-size: 50px;
+    padding-top: 5px;
+}
+
+.custom-price span.small{
+    font-size: 30px;
+}
+
+.custom-price ul{
+    padding: 0;
+    list-style: none;
+    margin-top: 5%;
+}
+
+.custom-price li{
+    padding-top: 10%;
+}
+
+.custom-price span{
+
+}
+
+.custom-price span.icon{
+    padding-right: 5px;
+    font-weight: bold;
+}

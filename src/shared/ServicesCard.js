@@ -6,34 +6,85 @@ const cardStyle = {
     backgroundImage: 'url('+ cards +')',
 };
 
-function ServicesCard() {
+function ServicesCard(props) {
+
+    const { type, name, price, exterior, interior, vaccum, window, seats, polish } = props.data;
+
     return(
         <div className="custom-card" style={cardStyle}>
             <div className="container">
 
-                <h6>Sport Car</h6>
+                <h6>{type}</h6>
 
                 <div className="content">
-                    <h4>Corolla Cross</h4>
+                    <h4>{name}</h4>
                     <div className="mt-3">
-                        <a href="#">$ 34,500</a>
+                        <a href="#">PKR {price}</a>
                     </div>
 
                     <div className="row pt-4 m-0 px-0">
-                        <div className="col-4 col-md-4 col-lg-4">
-                            <p className="text-white-50">Transmission</p>
-                            <h5>Automatic</h5>
-                        </div>
+                        
 
-                        <div className="col-4 col-md-4 col-lg-4">
-                            <p className="text-white-50">Fuel</p>
-                            <h5>Electric</h5>
-                        </div>
+                        {
+                            exterior == 'Yes' ?
+                            <div className="col-4 col-md-4 col-lg-4">
+                                <p className="text-white-50">EXTERIOR</p>
+                                <h5>{exterior}</h5>
+                            </div>
+                            :
+                            null
+                        }
 
-                        <div className="col-4 col-md-4 col-lg-4">
-                            <p className="text-white-50">Pessenger</p>
-                            <h5>2</h5>
-                        </div>
+                        {
+                            interior == 'Yes' ?
+                            <div className="col-4 col-md-4 col-lg-4">
+                                <p className="text-white-50">INTERIOR</p>
+                                <h5>{interior}</h5>
+                            </div>
+                            :
+                            null
+                        }
+
+                        {
+                            vaccum == 'Yes' ?
+                            <div className="col-4 col-md-4 col-lg-4">
+                                <p className="text-white-50">VACCUM</p>
+                                <h5>{vaccum}</h5>
+                            </div>
+                            :
+                            null
+                        }
+
+                        {
+                            window == 'Yes' ?
+                            <div className="col-4 col-md-4 col-lg-4">
+                                <p className="text-white-50">WINDOW</p>
+                                <h5>{window}</h5>
+                            </div>
+                            :
+                            null
+                        }
+                        
+                        {
+                            seats == 'Yes' ?
+                                <div className="col-4 col-md-4 col-lg-4">
+                                <p className="text-white-50">SEATS</p>
+                                <h5>{seats}</h5>
+                            </div>
+                            :
+                            null
+                        }
+
+                        {
+                            polish == 'Yes' ?
+                            <div className="col-4 col-md-4 col-lg-4">
+                                <p className="text-white-50">POLISH</p>
+                                <h5>{polish}</h5>
+                            </div>
+                            :
+                            null
+                        }
+                        
                     </div>
                 </div>
 

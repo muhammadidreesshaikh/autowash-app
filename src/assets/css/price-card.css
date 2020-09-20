@@ -10,12 +10,12 @@
 
 .custom-price h2{
     font-weight: bold;
-    font-size: 50px;
+    font-size: 40px;
     padding-top: 5px;
 }
 
 .custom-price span.small{
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .custom-price ul{

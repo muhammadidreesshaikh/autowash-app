@@ -9,7 +9,42 @@ class Services extends React.Component {
 
         this.state = {
             data: [],
-            loading: false
+            loading: false,
+            services: [
+                {
+                    type: 'small sedan',
+                    name: 'Express Washing',
+                    price: '3000',
+                    exterior: 'Yes',
+                    interior: 'Yes',
+                    vaccum: 'No',
+                    window: 'Yes',
+                    seats: 'No',
+                    polish: 'No'
+                },
+                {
+                    type: 'mid size',
+                    name: 'Basic Washing',
+                    price: '2000',
+                    exterior: 'Yes',
+                    interior: 'No',
+                    vaccum: 'No',
+                    window: 'Yes',
+                    seats: 'No',
+                    polish: 'No'
+                },
+                {
+                    type: 'pickup',
+                    name: 'Premium Washing',
+                    price: '5000',
+                    exterior: 'Yes',
+                    interior: 'Yes',
+                    vaccum: 'Yes',
+                    window: 'Yes',
+                    seats: 'Yes',
+                    polish: 'Yes'
+                }
+            ],
         };
     } 
 
@@ -39,51 +74,13 @@ class Services extends React.Component {
                 <div className="products">
                     <div className="container">
                         <div className="row service-cards">
-
-                            <div className="col-md-4">
-                                <ServicesCard />
-                            </div>
-
-                            <div className="col-md-4">
-                                <ServicesCard />
-                            </div>
-
-                            <div className="col-md-4">
-                                <ServicesCard />
-                            </div>
-
-                            <div className="col-md-4">
-                                <ServicesCard />
-                            </div>
-
-                            <div className="col-md-4">
-                                <ServicesCard />
-                            </div>
-
-                            <div className="col-md-4">
-                                <ServicesCard />
-                            </div>
-
-                            <div className="col-md-4">
-                                <ServicesCard />
-                            </div>
-
-                            <div className="col-md-4">
-                                <ServicesCard />
-                            </div>
-
-                            <div className="col-md-4">
-                                <ServicesCard />
-                            </div>
-
-                            <div className="col-md-4">
-                                <ServicesCard />
-                            </div>
-
-                            <div className="col-md-4">
-                                <ServicesCard />
-                            </div>
-
+                            {
+                                this.state.services.map((service, index) =>
+                                    <div className="col-md-4" key={index}>
+                                        <ServicesCard data={service} />
+                                    </div>
+                                )
+                            }
                         </div>
                     </div>
                 </div>

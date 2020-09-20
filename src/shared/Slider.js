@@ -1,6 +1,6 @@
 import React from 'react';
 import '../assets/css/slider.css';
-import slider from '../assets/img/slider2.png'
+import slider from '../assets/img/washer1.jpg'
 
 class Slider extends React.Component {
 
@@ -31,8 +31,10 @@ class Slider extends React.Component {
 
                                <div className="col-12 col-md-12 col-lg-6">
                                    <div className="heading">
-                                        <h1>Say hello to best car wash platform</h1>
+                                        <h1>Professional washing and cleaning of your car.</h1>
                                         <p className="pt-3">simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                        
+                                        <h4>Call for book: <a href="tel: +923312737076">+923312737076</a></h4>
 
                                         <h6 className="pt-4">Popular Brands</h6>
                                         <ul className="pt-1">
@@ -49,8 +51,8 @@ class Slider extends React.Component {
                                <div className="col-12 col-md-12 col-lg-6">
                                    <div className="image">
                                         <div className="wrapper d-none d-md-block d-lg-block">
-                                            <h6>Toyota</h6>
-                                            <p>Revo Rocco</p>
+                                            {/* <h6>Toyota</h6>
+                                            <p>Revo Rocco</p> */}
                                         </div>
                                         
                                         <img src={slider} />

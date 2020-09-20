@@ -126,19 +126,17 @@ class Home extends React.Component {
                                 </div>
                             </div>
 
-                            <div className="service-cards">
-                                <div className="row">
-                                    <div className="col-md-4">
-                                        <ServicesCard />
-                                    </div>
+                            <div className="row service-cards">
+                            <div className="col-md-4">
+                                    <ServicesCard />
+                                </div>
 
-                                    <div className="col-md-4">
-                                        <ServicesCard />
-                                    </div>
+                                <div className="col-md-4">
+                                    <ServicesCard />
+                                </div>
 
-                                    <div className="col-md-4">
-                                        <ServicesCard />
-                                    </div>
+                                <div className="col-md-4">
+                                    <ServicesCard />
                                 </div>
                             </div>
                         </div>
@@ -170,7 +168,7 @@ class Home extends React.Component {
                         </div>
                     </div>
 
-                    <div className="question">
+                    <div className="question mx-3">
                         <div className="container">
                             <div className="row main">
                                 <div className="col-12 col-md-8 col-lg-8">

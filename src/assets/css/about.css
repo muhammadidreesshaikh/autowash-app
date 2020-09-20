@@ -96,6 +96,7 @@
     padding: 40px 20px;
     border-radius: 20px;
     background-color: var(--color-blue);
+    margin-top: 10%;
 }
 
 .shop .inner{
@@ -110,7 +111,7 @@
 
 .shop .inner h3{
     
-}
+} 
 
 .shop .inner p {
     color: white;
@@ -138,3 +139,28 @@
     transition: 0.5s;
     color: var(--color-white);
 }
+
+
+/* menu desktop and mobile switching on responsive  */
+
+@media only screen and (max-width: 768px) {
+   
+}
+
+@media only screen and (max-width: 600px) {
+    .about{
+        height: 25vh;
+    }
+
+    .about h1{
+        font-size: 35px;
+    }
+
+    .process{
+        padding: 7% 0;
+    }
+
+    .shop .shop-card{
+        margin-top: 5%;
+    }
+} 

@@ -19,7 +19,7 @@ function ServicesCard() {
                         <a href="#">$ 34,500</a>
                     </div>
 
-                    <div className="row pt-4">
+                    <div className="row pt-4 m-0 px-0">
                         <div className="col-4 col-md-4 col-lg-4">
                             <p className="text-white-50">Transmission</p>
                             <h5>Automatic</h5>

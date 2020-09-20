@@ -293,6 +293,8 @@
     }
 }
 
+/* menu desktop and mobile switching on responsive  */
+
 @media only screen and (max-width: 600px) {
     .card{
         margin-top: 15px;
@@ -304,5 +306,13 @@
 
     .custom-card{
         margin-top: 5%;
+    }
+
+    .serve .heading {
+        padding: 0;
+    }
+
+    .question .main .heading h6 {
+        font-size: 20px;
     }
 }

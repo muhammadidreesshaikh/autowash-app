@@ -45,11 +45,11 @@ function Header() {
                 </div>
 
                 <div className={"mobile-menu sidenav " + (menuToggle ? 'open' : 'close')}>
-                    <Link to="/home">Home</Link>
-                    <Link to="/services">Services</Link>
-                    <Link to="/about">About</Link>
-                    <Link to="/contact">Contact</Link>
-                    <Link to="/login">Login</Link>
+                    <Link to="/home" onClick={() => setMenuToggle(!menuToggle)}>Home</Link>
+                    <Link to="/services" onClick={() => setMenuToggle(!menuToggle)}>Services</Link>
+                    <Link to="/about" onClick={() => setMenuToggle(!menuToggle)}>About</Link>
+                    <Link to="/contact" onClick={() => setMenuToggle(!menuToggle)}>Contact</Link>
+                    <Link to="/login" onClick={() => setMenuToggle(!menuToggle)}>Login</Link>
                 </div>
 
                 

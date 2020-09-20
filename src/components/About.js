@@ -54,7 +54,7 @@ class About extends React.Component {
                                 <div className="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
                             </div> */}
 
-                            <div className="box mt-5">
+                            <div className="col-12 box mt-5">
                                 <div className="row">
                                     <div className="col-md-3 col-lg-3">
                                         <div className="card">
@@ -110,7 +110,7 @@ class About extends React.Component {
                                 <p>There are many variations of passages of but the majority have suffered alteration words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum. </p>
                             </div>
 
-                            <div className="col-12 col-md-12 col-lg-12 pt-5">
+                            <div className="col-12 col-md-12 col-lg-12">
                                 <div className="row">
                                     <div className="col-12 col-md-3 col-lg-3">
                                         <div className="shop-card">
@@ -121,7 +121,7 @@ class About extends React.Component {
                                                 <a className="contact-btn" href="#">021 2223 4541 23</a>
                                             </div>
                                         </div>
-                                    </div>
+                                   </div>
 
                                     <div className="col-12 col-md-3 col-lg-3">
                                         <div className="shop-card">

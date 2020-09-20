@@ -10,7 +10,7 @@
     background-blend-mode: soft-light;
     background-color: #464646;
     background-attachment: fixed;
-}
+} 
 
 .about h1{
     font-size: 40px;
@@ -20,7 +20,7 @@
 
 .about .seprator{
     width: 20%;
-    height: 2px;
+    height: 8px;
     background-color: var(--color-white);
     display: block;
     margin: auto;

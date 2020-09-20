@@ -1,0 +1,66 @@
+.services{
+    background-image: url(../img/z4.webp);
+    width: 100%;
+    height: 70vh;
+    padding: 10% 0 5% 0;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+    background-color: #464646;
+    background-attachment: fixed;
+} 
+
+.services h1{
+    font-size: 40px;
+    color: var(--color-white);
+    font-weight: bold;
+}
+
+.services .seprator{
+    width: 20%;
+    height: 8px;
+    background-color: var(--color-white);
+    display: block;
+    margin: auto;
+    padding-top: 4px;
+    border-radius: 10px;
+}
+
+.products{
+    padding: 5% 0;
+}
+
+.products h1{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.products p{
+    font-size: 13px;
+    color: var(--color-gry);
+    padding-top: 10px;
+}
+
+.custom-card{
+    margin-top: 10%;
+}
+
+
+/* menu desktop and mobile switching on responsive  */
+
+@media only screen and (max-width: 768px) {
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .services{
+        height: 25vh;
+    }
+
+    .services h1{
+        font-size: 35px;
+    }
+}

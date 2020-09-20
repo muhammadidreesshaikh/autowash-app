@@ -18,7 +18,7 @@ class About extends React.Component {
         this.setState({
             loading: true
         });
-    }
+    } 
 
     render() {
         return(

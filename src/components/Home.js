@@ -259,8 +259,8 @@ class Home extends React.Component {
                                         <h1 className="pt-2">We serve you with best service in the world</h1>
                                         <p className="pt-3">simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever Lorem Ipsum has been the standard dummy text ever since the since specimen book printing and typesetting industry.</p>
 
-                                        <div className="button pt-4">
-                                            <a href="#">Learn More</a>
+                                        <div className="pt-4">
+                                            <a className="press" href="#">Learn More</a>
                                         </div>
                                     </div>
                                 </div>

@@ -7,7 +7,7 @@ import Home from './components/Home';
 import Services from './components/Services';
 import About from './components/About';
 import Contact from './components/Contact';
-import Login from './components/Login';
+import Oder from './components/Oder';
 
 import { 
   BrowserRouter as Router, 
@@ -29,7 +29,7 @@ function App() {
               <Route exact path='/services' component={Services}></Route>
               <Route exact path='/about' component={About}></Route>
               <Route exact path='/contact' component={Contact}></Route>
-              <Route exact path='/login' component={Login}></Route>
+              <Route exact path='/oder' component={Oder}></Route>
             </Switch>
           </div>
 

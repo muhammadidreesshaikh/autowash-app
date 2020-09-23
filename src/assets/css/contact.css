@@ -1,9 +1,34 @@
-.contact{
-    padding: 7% 0;
+.main-contact{
+    background-image: url(../img/z5.webp);
+    width: 100%;
+    height: 70vh;
+    padding: 10% 0 5% 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+    background-color: #464646;
+    background-attachment: fixed;
+} 
+
+.main-contact h1{
+    font-size: 40px;
+    color: var(--color-white);
+    font-weight: bold;
 }
 
-.contact  .left{
-    
+.main-contact .seprator{
+    width: 10%;
+    height: 8px;
+    background-color: var(--color-white);
+    display: block;
+    margin: auto;
+    padding-top: 4px;
+    border-radius: 10px;
+}
+
+.contact{
+    padding: 5% 0;
 }
 
 .contact .left h2{
@@ -31,7 +56,7 @@
 }
 
 .contact .left .detail p{
-    color: white;
+    color: var(--color-white);
     font-size: 12px;
     padding: 0;
 }
@@ -46,7 +71,7 @@
 .contact input, .contact textarea 
 {
     background-color: var(--color-grey-shadow);
-    color: #000;
+    color: var(--color-black);
     border-radius: 5px;
     padding: 8px 0 8px 10px;
     border: 1px solid var(--color-grey-shadow);
@@ -59,3 +84,32 @@
 {
     color: var(--color-black);
 }
+
+
+/* menu desktop and mobile switching on responsive  */
+
+@media only screen and (max-width: 768px) {
+    .main-contact{
+        height: 45vh;
+        padding: 15% 0 0% 0;
+    }
+   
+}
+
+@media only screen and (max-width: 600px) {
+    .main-contact{
+        height: 25vh;
+    }
+
+    .main-contact h1{
+        font-size: 35px;
+    }
+
+    .main-contact .seprator{
+        width: 20%;
+    }
+
+    .contact{
+        padding: 10% 0;
+    }
+} 

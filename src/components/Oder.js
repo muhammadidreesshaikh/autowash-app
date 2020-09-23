@@ -1,7 +1,7 @@
 import React from 'react';
-import '../assets/css/login.css';
+import '../assets/css/oder.css';
 
-class Login extends React.Component {
+class Oder extends React.Component {
 
     constructor(props) {
         super(props);
@@ -22,10 +22,10 @@ class Login extends React.Component {
 
     render() {
         return(
-            <div>
-                <p>Login Login Login</p>
-            </div>
+            <section>
+                <p>Oder Oder Oder</p>
+            </section>
         );
     }
 }
-export default Login;
+export default Oder;

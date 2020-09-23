@@ -52,6 +52,18 @@
 /* menu desktop and mobile switching on responsive  */
 
 @media only screen and (max-width: 768px) {
+    .services{
+        height: 45vh;
+        padding: 10% 0 0% 0;
+    }
+
+    .services h1{
+        font-size: 35px;
+    }
+
+    .services .seprator{
+        width: 40%;
+    }
     
 }
 

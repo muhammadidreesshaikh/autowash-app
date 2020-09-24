@@ -33,7 +33,7 @@
 
 .input input, .input textarea 
 {
-    background-color: var(--color-grey-shadow);
+    /* background-color: var(--color-grey-shadow); */
     color: var(--color-black);
     border-radius: 5px;
     padding: 8px 0 8px 10px;
@@ -50,7 +50,7 @@
 }
 
 .input select{
-    background-color: var(--color-grey-shadow);
+    /* background-color: var(--color-grey-shadow); */
     color: var(--color-black);
     border-radius: 5px;
     padding: 8px 0 8px 10px;

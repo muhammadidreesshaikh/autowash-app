@@ -36,7 +36,7 @@ function Header() {
                                     <li><Link to="/services">Services</Link></li>
                                     <li><Link to="/about">About</Link></li>
                                     <li><Link to="/contact">Contact</Link></li>
-                                    <li><Link to="/oder">Oder</Link></li>
+                                    <li><Link to="/order">Order</Link></li>
                                  </ul>
                             </div>
                         </div>
@@ -49,7 +49,7 @@ function Header() {
                     <Link to="/services" onClick={() => setMenuToggle(!menuToggle)}>Services</Link>
                     <Link to="/about" onClick={() => setMenuToggle(!menuToggle)}>About</Link>
                     <Link to="/contact" onClick={() => setMenuToggle(!menuToggle)}>Contact</Link>
-                    <Link to="/oder" onClick={() => setMenuToggle(!menuToggle)}>Oder</Link>
+                    <Link to="/order" onClick={() => setMenuToggle(!menuToggle)}>Order</Link>
                 </div>
 
                 
